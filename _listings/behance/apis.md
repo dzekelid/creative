@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1309-behan
 x-kinRank: "8"
 x-alexaRank: "422"
 tags: Creative
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/creative/master/_listings/behance/apis.md
 specificationVersion: "0.14"
 apis: []
