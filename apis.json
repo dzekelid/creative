@@ -1,0 +1,109 @@
+{
+	"name": "Streadata.io API Gallery - Creative",
+	"description": "This is a repository of creative APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/creative.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://creative.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Dribbble",
+			"x-api-slug": "dribbble",
+			"description": "Shots from popular and up and coming designers in the Dribbble community, your best resource to discover and connect with designers worldwide.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/580-dribbble.jpg",
+			"humanURL": "http://dribbble.com",
+			"baseURL": "https:///",
+			"tags": "Creative",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/creative/master/_listings/dribbble/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pidoco",
+			"x-api-slug": "pidoco",
+			"description": "Create clickable wireframes for websites and mobile apps with our online wireframing tool. Collaboration and exports for easy UI design and UX prototyping.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/893-pidoco.jpg",
+			"humanURL": "https://pidoco.com",
+			"baseURL": "https:///",
+			"tags": "Creative",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/creative/master/_listings/pidoco/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "UK National Archives",
+			"x-api-slug": "uk-national-archives",
+			"description": "The National Archives (TNA) is a non-ministerial government department. Its parent department is the Department for Culture, Media and Sport of the United Kingdom of Great Britain and Northern Ireland. It is the official archive of the UK government and for England and Wales; and guardian of some of the nations most iconic documents, dating back more than 1,000 years. There are separate national archives for Scotland (the National Records of Scotland) and Northern Ireland (the Public Record Office of Northern Ireland).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uk-national-archives.jpeg",
+			"humanURL": "http://discovery.nationalarchives.gov.uk/SearchUI/api.htm",
+			"baseURL": "https://api.gettyimages.com//",
+			"tags": "Creative",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/creative/master/_listings/uk-national-archives/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Behance",
+			"x-api-slug": "behance",
+			"description": "Use Behance to showcase and discover creative work. Were on a mission to empower the creative world to make ideas happen.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1309-behance.jpg",
+			"humanURL": "http://www.behance.net/dev",
+			"baseURL": "https:///",
+			"tags": "Creative",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/creative/master/_listings/behance/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Doubleclick",
+			"x-api-slug": "google-doubleclick",
+			"description": "The Ad Exchange Buyer REST API allows your Real-Time Bidding application to access and update account information and to submit creatives. The API also allows an application (whether it does static bidding or real-time bidding) to discover direct deals that sellers make available.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png",
+			"humanURL": "https://www.doubleclickbygoogle.com/",
+			"baseURL": "https:///",
+			"tags": "Creative",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/creative/master/_listings/google-doubleclick/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Creative",
+	"include": [
+		{
+			"name": "Dribbble",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/creative/master/_listings/dribbble/apis.yaml"
+		},
+		{
+			"name": "Pidoco",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/creative/master/_listings/pidoco/apis.yaml"
+		},
+		{
+			"name": "UK National Archives",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/creative/master/_listings/uk-national-archives/apis.yaml"
+		},
+		{
+			"name": "Behance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/creative/master/_listings/behance/apis.yaml"
+		},
+		{
+			"name": "Google Doubleclick",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/creative/master/_listings/google-doubleclick/apis.yaml"
+		}
+	]
+}

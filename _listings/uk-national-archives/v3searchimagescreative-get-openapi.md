@@ -1,9 +1,10 @@
+---
 swagger: "2.0"
 x-collection-name: UK National Archives
-x-complete: 1
+x-complete: 0
 info:
-  title: Getty Images
-  description: build-applications-using-the-worlds-most-powerful-imagery
+  title: Getty Images Search API Get Search Images Creative
+  description: Search for creative images only.
   version: "3.0"
 host: api.gettyimages.com
 basePath: /
@@ -106,63 +107,17 @@ paths:
       - Search
       - Images
       - Creative
-  /v3/search/videos/creative:
-    get:
-      summary: Get Search Veos Creative
-      description: Search for creative videos.
-      operationId: getV3SearchVeosCreative
-      x-api-path-slug: v3searchvideoscreative-get
-      parameters:
-      - in: header
-        name: Accept-Language
-        description: Specifies the language of result values
-      - in: query
-        name: age_of_people
-        description: Provides filtering according to the age of individuals in a video
-      - in: header
-        name: Authorization
-        description: Provide access token in the format of Bearer {token}
-      - in: query
-        name: collections_filter_type
-        description: Provides searching based on specified collection(s)
-      - in: query
-        name: collection_codes
-        description: Provides filtering by collection code
-      - in: query
-        name: exclude_nudity
-        description: Excludes images containing nudity
-      - in: query
-        name: fields
-        description: Specifies fields to return
-      - in: query
-        name: format_available
-        description: Filters according to the digital video format available on a
-          film asset
-      - in: query
-        name: keyword_ids
-        description: Return only images tagged with specific keyword(s)
-      - in: query
-        name: license_models
-        description: Specifies the video licensing model(s)
-      - in: query
-        name: page
-        description: Identifies page to return
-      - in: query
-        name: page_size
-        description: Specifies page size
-      - in: query
-        name: phrase
-        description: Free-text search query
-      - in: query
-        name: product_types
-        description: Allows filtering by a list of product types
-      - in: query
-        name: sort_order
-        description: Allows sorting of results
-      responses:
-        200:
-          description: OK
-      tags:
-      - Search
-      - Veos
-      - Creative
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
